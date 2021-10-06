@@ -2,9 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "babel src -d lib",
-    "start": "next start",
-    "prebuild": "jest"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.0",
